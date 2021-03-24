@@ -29,11 +29,11 @@
 	width: 250px;
 	margin: 25px 25px 25px 25px;
 	display: table;
-	float: right;
+    float: left;
 }
 .box_verde1, .box_verde2, .box_verde3, .box_verde4{
     
-    background-image: url(../img/Assets/iStock-1206456770.jpg);
+    
     background-size: cover;
 	width: 100%;
 	height: 200px;
@@ -41,6 +41,9 @@
 	border-radius: 7px;
 	border: 2px solid;
     box-shadow: 0 0 3px;
+}
+.box_verde1{
+    background-image: url(../img/Assets/iStock-1206456770.jpg);
 }
 .box_verde2{
     background-image: url(../img/Assets/iStock-1161884472.jpg);
