@@ -1,0 +1,93 @@
+*{
+    font-family: Lato,Arial,Helvetica,sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.secao1{
+    background-image: linear-gradient(to top, white, rgb(54, 54, 189));
+}
+.imunoCaps{
+    display: inline-flex;
+    margin: 10px;
+    margin-bottom: -2px;
+    background-color: #ffffff;
+    border-radius:3px;
+}
+.contain__textos h1, .contain__textos h2{
+    font-family: Lato,Arial,Helvetica,sans-serif;
+
+    display: block;
+    color: #252B6C;
+}
+.contain__textos p{
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: -10px;
+    text-align: left;
+    padding: 50px 10px;
+}
+
+form{
+    margin-top:-20px;
+    margin: 10px;
+    border-radius: 3px;
+    padding: 20px;
+    background-color:#ffffff ;
+    box-shadow: 0 0 2px;
+}
+form p{
+    font-weight: 700;
+    text-align: center;
+    font-size:15px;
+    color: #238AC2;
+}
+.div_nome, .div_telefone, .div_email, .div_cidade{
+    padding: 10px;
+    text-align: center;
+}
+
+form label{
+    
+    font-weight: 600;
+    font-size: 20px
+}
+input[type="text"], input[type="email"], input[type="tel"], select{
+    background: none;
+ 	border: 1px solid;
+ 	border-color: #5E5D5E;
+ 	outline: none;
+    font-weight: 600;
+    font-size:20px;
+    width: 300px;
+    border-radius: 5px;
+    padding:0 5px;
+    color: black;
+    transition: 0.25s;
+
+}
+
+input[type="submit"]{
+    font-weight: 600;
+    font-size:20px;
+    height: 30px;
+    border-radius: 5px;
+    padding:0 5px;
+    color: white;
+    position: relative;
+    right: 50%;
+    left: 50%;
+    background-color: #00678a;
+    transition: 0.25s;
+}
+input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, select:focus{
+    width: 350px;
+    border-color: #2B8DAD;
+}
+input[type="submit"]:hover{
+    background-color: #04aa49;
+}
+@media(max-width:800px){
+    .caps{
+        height: 200px;
+    }
+}

@@ -1,0 +1,75 @@
+
+
+.main{
+    text-align: center;
+    font-weight: 500;
+    color: #46515D;
+	width: 1200px;
+	background-color: #fff;
+	border-radius: 10px;
+	margin-top: 40px;
+	margin-right:2px;
+	margin-left:20px;
+	display: table;
+}
+   
+@media(max-width: 1150px ){
+    .main{
+        width: 200px;
+        position: relative;
+        margin-left:-10px;
+
+        top: 150%;
+        left: 25%;
+    }
+}
+
+.box_container{
+    
+	width: 250px;
+	margin: 25px 25px 25px 25px;
+	display: table;
+	float: right;
+}
+.box_verde1, .box_verde2, .box_verde3, .box_verde4{
+    
+    background-image: url(../img/Assets/iStock-1206456770.jpg);
+    background-size: cover;
+	width: 100%;
+	height: 200px;
+	background-color: #80e817;
+	border-radius: 7px;
+	border: 2px solid;
+    box-shadow: 0 0 3px;
+}
+.box_verde2{
+    background-image: url(../img/Assets/iStock-1161884472.jpg);
+}
+.box_verde3{
+    background-image: url(../img/Assets/iStock-693516932.jpg);
+}
+.box_verde4{
+    background-image: url(../img/Assets/iStock-155302141.jpg);
+}
+.btn1, .btn2, .btn3{
+	width: 100%;
+	height: 30px;
+	border-radius: 4px;
+	display: block;
+	margin-top: 15px;
+    margin-bottom: 100px;
+}
+input[type="reset"]{
+    font-weight: 600;
+    font-size:20px;
+    height: 30px;
+    border-radius: 5px;
+    padding:0 5px;
+    color: white;
+    position: relative;
+    background-color: #2B8DAD;
+    transition: 0.25s;
+}
+input[type="reset"]:hover{
+    background-color: #04aa49;
+}
