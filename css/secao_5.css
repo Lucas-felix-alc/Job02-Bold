@@ -5,9 +5,7 @@
 .bg_tabela h4{
     padding: 10px;
 }
-.bg_tabela{
-    background-image: linear-gradient(to bottom, white, rgb(81, 81, 192));
-}
+
 .bg_tabela span{
     color: teal;
 }
