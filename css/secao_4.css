@@ -11,6 +11,7 @@
     height: 5px;
 }
 .text-sc04 h1{
+    font-family: Andale Mono, monospace;
     text-transform: uppercase;
     text-align: start;
     color: #ffd900;
@@ -19,6 +20,5 @@
     top: 5%;
     font-size: 40px;
     font-weight: 100;
-    font-family: Lato,Arial,Helvetica,sans-serif;
 
 }

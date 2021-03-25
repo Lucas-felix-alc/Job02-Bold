@@ -4,18 +4,20 @@
 .bg_box1{
     width: 50%;
     height:  600px;
-    background-image: linear-gradient(to bottom, #3B1806, #F7A500 );
+    background-color: #FBB900;
     
     float: right;
 }
 .bg_box1 h1{
+    font-family: Andale Mono, monospace;
     font-size: 35px;
     font-weight: 100;
     margin-top: 30px;
     padding: 10px;
     color: white;
 }
-.btn1{
+.btn1 p{
+    font-family: Andale Mono, monospace;
     padding: 10px;
     font-weight: 100;
     font-size: 25px;
@@ -31,21 +33,24 @@
     display: inline-flex;
 }
 .bg_box2{
+    
     margin-top: 6px;
     width: 50%;
     height:  600px;
-    background-image: linear-gradient(to bottom, #F7A500, #572517 );
-
+    background-color: #934102;
+    
     float: right;
 }
 .bg_box2 h1{
+    font-family: Andale Mono, monospace;
     font-size: 35px;
     font-weight: 100;
     margin-top: 30px;
     padding: 10px;
     color: white;
 }
-.btn2{
+.btn2 p{
+    font-family: Andale Mono, monospace;
     padding: 10px;
     font-weight: 100;
     font-size: 25px;
@@ -62,20 +67,23 @@
     display: inline-flex;
 }
 .bg_box3{
+    
     width: 50%;
     height:  600px;
-    background-image: linear-gradient(to bottom, #572517, #C93700 );
-
+    background-color: #DDAA72;
+    
     float: right;
 }
 .bg_box3 h1{
+    font-family: Andale Mono, monospace;
     font-size: 35px;
     font-weight: 100;
     margin-top: 30px;
     padding: 10px;
     color: white;
 }
-.btn3{
+.btn3 p{
+    font-family: Andale Mono, monospace;
     padding: 10px;
     font-weight: 100;
     font-size: 25px;
@@ -94,17 +102,20 @@
 .bg_box4{
     width: 50%;
     height:  600px;
-    background-image: linear-gradient(to bottom, #C93700, #e26b3f );
+    background-color: #FBA20A;
+    
     float: right;
 }
 .bg_box4 h1{
+    font-family: Andale Mono, monospace;
     font-size: 35px;
     font-weight: 100;
     margin-top: 30px;
     padding: 10px;
     color: white;
 }
-.btn4{
+.btn4 p{
+    font-family: Andale Mono, monospace;
     padding: 10px;
     font-weight: 100;
     font-size: 25px;
