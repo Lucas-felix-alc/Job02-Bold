@@ -1,14 +1,18 @@
 .secao05{
+    background-image: linear-gradient(to bottom, rgb(124, 124, 226), rgb(255, 255, 255) );
     width: 98.5%;
     padding: 10px;
+    
+}
+.foto{
+    float: right;
 }
 .bg_tabela h4{
     padding: 10px;
 }
 
-.bg_tabela span{
-    color: teal;
-}
+
+
 .tabela{
     width:500px;
     padding: 10px;
@@ -19,22 +23,30 @@
     border: 1px solid rgb(181, 181, 181);
 }
 .color-1{
-    background-color: rgb(182, 182, 182);
+    background-color: rgb(255, 255, 255);
 }
 
 .igd{
+  
    margin-bottom: 30px;
     width: 98.3%;
     padding: 10px;
 }
 .igd h3{
-    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: rgb(56, 56, 56);
+    padding-bottom: 30px;
 }
 .igd p{
-    font-size: 20px;
+    width: 30%;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: rgb(56, 56, 56);
+    padding-bottom: 20px;
 }
 .h4_mapa{
     padding: 10px;
-    font-weight: 900;
+    font-weight: 700;
     text-align: center;
 }
