@@ -8,6 +8,7 @@
     
     float: right;
 }
+/*IMAGENS TODAS COMPRIMIDAS*/
 .bg_box1 h1{
     font-family: Andale Mono, monospace;
     font-size: 35px;
@@ -27,7 +28,7 @@
 .box_container1{
     width: 50%;
     height: 600px;
-    background-image: url(../img/Assets/iStock-1206456770.jpg);
+    background-image: url(../img/Assets/iStock-1206456770-min.jpg);
     align-items: initial;
     background-size: cover;
     display: inline-flex;
@@ -61,7 +62,7 @@
     margin-top: 6px;
     width: 50%;
     height: 600px;
-    background-image: url(../img/Assets/iStock-1161884472.jpg);
+    background-image: url(../img/Assets/iStock-1161884472-min.jpg);
     align-items: initial;
     background-size: cover;
     display: inline-flex;
@@ -93,7 +94,7 @@
 .box_container3{
     width: 50%;
     height: 600px;
-    background-image: url(../img/Assets/iStock-693516932.jpg);
+    background-image: url(../img/Assets/iStock-693516932-min.jpg);
     align-items: initial;
     background-size: cover;
     display: inline-flex;
@@ -125,7 +126,7 @@
 .box_container4{
     width: 50%;
     height: 600px;
-    background-image: url(../img/Assets/iStock-155302141.jpg);
+    background-image: url(../img/Assets/iStock-155302141-min.jpg);
     align-items: initial;
     background-size: cover;
     display: inline-flex;
